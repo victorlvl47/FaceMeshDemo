@@ -44,7 +44,7 @@ class FaceMeshDetector():
 
 
 def main():
-    cap = cv2.VideoCapture('videos/5.mp4')
+    cap = cv2.VideoCapture('> PATH TO VIDEO HERE <')
     pTime = 0
 
     detector = FaceMeshDetector()
